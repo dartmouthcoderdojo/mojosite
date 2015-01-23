@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;    
+}
+body{
+    margin: 0;
+    background: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+section{
+    background: white;
+    &.clear {
+        background: transparent;
+    }
+    
+    padding: 1em;
+    max-width: 760px;
+    
+
+    @media (max-width: 768px){
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    @media (min-width: 769px){
+        margin:auto;
+    }
+}
+
+.nopad{
+    padding: 0px;
+}

@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>MojoSite | dojoer </title>
+        
+        <base href="/mojosite/">
+        
+        <!-- Preloaded CDN stuff -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        
+        
+        <!-- CDN Scripts -->
+        <script src="components/photo_array/body-background.js"></script>
+        <link rel="stylesheet" href="components/basicStyle.css">
+        <link rel="stylesheet" href="components/styles/hover.css">
+    </head>
+    <body>
+        <header>
+            <div id="siteNav"></div>
+            <script>$(document).ready(function(){
+                $('#siteNav').load('/mojosite/components/navigation/topnavbar.html');
+            });
+            </script>
+        </header>
+           
+        <section id="mainContent">
+            <h1>Welcome to <mark>&lt;Dojoer Name&gt;'s</mark> Page!</h1> 
+        </section>
+            
+            
+    </body>
+</html>

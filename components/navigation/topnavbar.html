@@ -1,0 +1,48 @@
+<nav id="topNavBar">
+    <ul>
+        <li><a href="/mojosite/">MojoSite</a></li>
+        <li><a href="/">CoderDojo</a></li>
+    </ul>
+</nav>
+
+
+
+
+<style>
+#topNavBar{
+    background: white;
+    margin: 0;
+    font-size: 1.5em;
+}
+#topNavBar ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+#topNavBar ul li{
+    list-style-type: none;
+}
+#topNavBar ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: .4em;
+    color: rgba(0, 0, 0, .8);
+    
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: .6s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow, color;
+}
+#topNavBar ul li a:hover, #topNavBar ul li a:focus, #topNavBar ul li a:active{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    color: rgba(30, 200, 50, 1);
+}
+</style>

@@ -7,26 +7,82 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
         
         <!--  Local Resources-->
-        <link rel="stylesheet/less" type="text/css" href="index.less" />
-        
+        <link rel="stylesheet" type="text/css" href="./index.css" />
         
         <!-- CDN Scripts -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.2.0/less.min.js"></script>
-        <script src="/components/photo_array/body-background.js"></script>
+<!--        <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.2.0/less.min.js"></script>-->
+        <script src="/mojosite/components/photo_array/body-background.js"></script>
     </head>
     <body>
       
-       <section>
+      <section>
+         <div id="siteNav"></div>
+          <script>$(document).ready(function(){
+                $('#siteNav').load('/mojosite/components/navigation/topnavbar.html');
+            });
+          </script>
+      </section>
+      <section>
+          <br />
+      </section>
+       <section class="banner">
            <h1>Welcome to the MojoSite</h1>  
        </section>
-       <section class="clear"></section>
-       <section>
-           Please Explore
-       </section>
-       <section class="clear"></section>
        
-       <section class="nopad">
-           Hello
+       <section>
+           <br />
        </section>
+       
+       <section class="banner">
+           <p>
+           Please Explore
+           </p>
+       </section>
+       
+       <section>
+           <br />
+       </section>
+       
+        <section class="last">
+            <div class="tilebox">
+                <div>
+                    <div class="tile">
+                        <a href="template.html">
+                        JBB the Scrappy
+                        </a>
+                    </div>
+                    <div class="tile">
+                        <a href="template.html">
+                        Andrew the Brave
+                        </a>
+                    </div>
+                    <div class="tile">
+                        <a href="template.html">
+                        Kevin the Kurious
+                        </a>
+                    </div>
+                    <div class="tile">
+                        <a href="template.html">
+                        Luisa the Crustaceous
+                        </a>
+                    </div>
+                    <div class="tile">
+                        <a href="template.html">
+                        Mickey the McJaguar
+                        </a>
+                    </div>
+                    <div class="tile">
+                        <a href="template.html">
+                        Etai the Ibis
+                        </a>
+                    </div>
+                    <div class="tile">
+                        <a href="template.html">
+                        Tommy the Tomboy
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>

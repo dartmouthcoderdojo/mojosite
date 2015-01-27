@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>MojoSite | jblanchet </title>
+        
+        <base href="/mojosite/">
+        
+        <!-- Preloaded CDN stuff -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        
+        
+        <!-- CDN Scripts -->
+        <script src="components/photo_array/body-background.js"></script>
+        <link rel="stylesheet" href="components/basicStyle.css">
+        <link rel="stylesheet" href="components/styles/hover.css">
+    </head>
+    <body>
+        <header>
+            <div id="siteNav"></div>
+            <script>$(document).ready(function(){
+                $('#siteNav').load('/mojosite/components/navigation/topnavbar.html');
+            });
+            </script>
+        </header>
+           
+        <style>
+        img{
+            float: left;
+            max-height: 250px;
+            margin:1em;
+            border: 4px rgba(255, 255, 255, .9) solid;
+        }
+        #mainContent h1{
+            display:block;
+            text-align: center;
+            background: rgba(0,0,0,.6);
+            width: 100%;
+            margin-top: 0;
+            padding: 1em;
+            color: white;
+        }
+        span.green{
+            color: green;
+        }
+        </style>
+        <section id="mainContent">
+            <h1>Welcome to Julien's Page!</h1> 
+            <h1>Home of the <span class="green">Cats on Drugs!</span></h1>
+        </section>
+        
+        <img src="https://c1.staticflickr.com/1/56/180653960_21cf28e0b3.jpg" alt="">
+        <img src="http://www.dumpaday.com/wp-content/uploads/2013/01/grumpy-cat-on-drugs.jpg" alt="">
+        <img src="http://anongallery.org/img/5747/whoever-said-acid-is-bad-for-cats-was-clearly-not-a-cat-on-acid.jpg" alt="">
+        <img src="http://informationng.com/wp-content/uploads/2013/07/cocainecat.jpg" alt="">
+        <img src="http://fc01.deviantart.net/fs71/f/2013/236/3/8/cat_on_drugs_by_biostratos-d6jhubw.jpg" alt="">
+        <img src="http://1.bp.blogspot.com/_Yf4lxbgUP88/TRo8aPUQu6I/AAAAAAAACgs/aEb0ChvkoU8/s1600/catnip-cat-799574.jpg" alt="">
+        <img src="http://makeameme.org/media/created/drugs-i-didnt.jpg" alt="">
+    </body>
+</html>

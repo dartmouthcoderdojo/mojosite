@@ -84,6 +84,13 @@ br{
         display: flex;
         align-items:center;
         justify-content: center;
+		
+		transition-duration: .5s;
+		transition-property: background;
+		
+		&:hover, &:focus, &:active{
+			background: rgba(62, 199, 136, 0.9);
+		}
         
         a{
             text-decoration: none;

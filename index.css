@@ -53,6 +53,13 @@ section.clear {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-duration: .5s;
+  transition-property: background;
+}
+.tilebox .tile:hover,
+.tilebox .tile:focus,
+.tilebox .tile:active {
+  background: rgba(62, 199, 136, 0.9);
 }
 .tilebox .tile a {
   text-decoration: none;

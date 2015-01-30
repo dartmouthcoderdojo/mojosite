@@ -3,5 +3,6 @@ $(document).ready(function(){
     var imgNum = Math.ceil(Math.random() * imgChoices);
     
     document.body.style.backgroundImage = "url('/mojosite/components/photo_array/" + imgNum + ".jpg')";
+	document.body.style.backgroundSize = "cover";
 });
 

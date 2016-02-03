@@ -1,0 +1,101 @@
+
+* {
+  font: 24px "Open Sans";
+  padding: 0;
+  margin: 0;
+}
+
+.intro-wrapper {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+/*  background-color: #E32636;*/
+    background-size: cover;
+    background-image: url(/assets/img/hands_typing.jpeg);
+}
+
+.about-wrapper {
+  position: relative;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 150px;
+  height: 100vh;
+  color: black;
+}
+
+#aboutme {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  font-size: 30px;
+    color:turquoise;
+  font-family: monospace;
+}
+
+.info {
+  font-size: 20px;
+  color: black;
+  margin-top: 10px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.title, .welcome-msg {
+  font-size: 72px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.welcome-msg {
+  font-weight: 800;
+  color: darkcyan;
+    font-family: monospace;
+}
+
+section {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 100px;
+}
+
+li {
+  list-style: none;
+  padding-top: 10px;
+}
+
+footer {
+  background-color: darkturquoise;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 150px;
+  z-index: 1;
+  position: fixed;
+  text-align: center;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.ul {
+  z-index: 1;
+  font-size: 18px;
+  color: black;
+  padding-top: 20px;
+}
+
+a {
+  padding: 20px;
+  color: aliceblue;
+  text-decoration: none;
+  transition: all 300ms ease-in-out;
+    font-size: 18px;
+}
+
+a:hover {
+  color: white;
+}
+
